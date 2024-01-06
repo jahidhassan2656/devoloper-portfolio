@@ -1,0 +1,41 @@
+/* common shared style */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+.text-parimary{
+    color: #FD6E0A;
+}
+.parimary-btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    border: 0px;
+    padding: 15px 35px;
+}
+/* nav related css */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+ color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+   color: #474747 ;
+}
